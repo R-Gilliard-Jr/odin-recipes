@@ -1,12 +1,10 @@
 * {
     font-family: 'Times New Roman', Georgia, serif;
-    background-color: grey;
 }
 
 h1 {
     text-align: center;
     color: purple;
-    background-color: white;
 }
 
 li {
@@ -42,4 +40,15 @@ img {
 ol li {
     margin-bottom: 0px;
     margin-top: 6px;
+}
+
+.index-ul li {
+    display: inline-block;
+    height: auto;
+    width: 32%;
+    padding-right: 0px;
+}
+
+li button {
+    margin: 0px 40%;
 }
